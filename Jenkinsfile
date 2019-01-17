@@ -2,7 +2,7 @@ print "----------------------------------------------------"
 print "                 JMeter Testing"
 print "----------------------------------------------------"
 
-node('jenkins-agent'){
+node(){
 
   workspace = pwd()   // Set the main workspace in your Jenkins agent
 
